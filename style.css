@@ -5,8 +5,9 @@
 }
 body {
   background-color: rgb(231, 231, 231);
+  height: 100%;
 }
-footer {
+.paigal {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -16,8 +17,20 @@ footer {
   color: aliceblue;
   padding: 0;
 }
-footer p {
+.paigal p {
   margin-top: 10px;
+}
+.ujuv {
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 0;
+}
+.ujuv p {
+  padding-top: 10px;
 }
 /*---AVALEHT---*/
 .container {
@@ -45,7 +58,8 @@ footer p {
 .navigatsioon {
   margin: auto;
   text-align: center;
-  font-size: 50px;
+  text-transform: uppercase;
+  font-size: 40px;
   margin-top: 30px;
 }
 .navigatsioon a {
@@ -66,9 +80,11 @@ footer p {
   display: inline-flex;
   justify-content: flex-end;
   list-style-type: none;
+  text-transform: uppercase;
   width: 100%;
   height: 60px;
   background-color: rgb(31, 30, 30);
+  box-shadow: 0px 7px rgba(0, 0, 0, 0.5);
 }
 .logo {
   margin: 15px auto 15px 20px;
@@ -76,11 +92,11 @@ footer p {
   font-size: 30px;
 }
 .navbar li {
-  margin: 15px 50px 15px 30px;
+  margin: 20px 50px 15px 30px;
 }
 .navbar li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(197, 89, 0);
   transition: 0.3s;
 }
@@ -88,6 +104,10 @@ footer p {
   color: white;
   font-size: 25px;
   transition: 0.3s;
+}
+.navbar li a:active {
+  color: white;
+  font-size: 25px;
 }
 /*---NAVBAR---*/
 
@@ -108,7 +128,34 @@ h2 {
 }
 .konteiner {
   display: flex;
-
   margin: 70px auto 40px auto;
   width: 1100px;
+}
+/*---FIRMAST---*/
+
+/*---UUDISED---*/
+.info {
+  margin-bottom: 70px;
+  display: inline-flex;
+  width: 100%;
+}
+.uudis {
+  max-width: 40%;
+}
+.konteineruudis {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px auto 40px auto;
+  width: 1100px;
+}
+#UP {
+  text-decoration: none;
+  color: crimson;
+  font-size: 30px;
+  transition: 0.3s;
+}
+#UP:hover {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
 }
