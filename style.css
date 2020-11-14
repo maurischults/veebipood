@@ -114,6 +114,11 @@ body {
   color: white;
   font-size: 25px;
 }
+.ostukorv {
+  border-radius: 10px;
+  background-color: rgb(77, 77, 77);
+  margin: 7px 30px 5px 0px;
+}
 /*---NAVBAR---*/
 
 /*---FIRMAST---*/
@@ -290,6 +295,7 @@ h2 {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
   transition: 0.3s;
+  cursor: pointer;
 }
 .hind a {
   text-decoration: none;
