@@ -191,9 +191,12 @@ h2 {
   width: 70%;
 }
 .tootepilt {
-  width: 300px;
   height: 300px;
   transition: 0.3s;
+}
+.crop {
+  text-indent: -92px;
+  overflow: hidden;
 }
 .tootepilt:hover {
   opacity: 0.5;
