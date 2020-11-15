@@ -106,7 +106,7 @@ body {
   transition: 0.3s;
 }
 .navbar li a:hover {
-  color: white;
+  color: white !important;
   font-size: 25px;
   transition: 0.3s;
 }
